@@ -4,10 +4,10 @@ const express = require("express");
 const router = express.Router();
 
 // Import Middleware
-const validateContact = require("../middleware/validateContact");
+const validateContact = require("../Middleware/validateContact");
 
 // Import Controller
-const sendContact = require("../controllers/contactController");
+const sendContact = require("../Controllers/contactController");
 
 // Health Check Route
 router.get("/", (req, res) => {
