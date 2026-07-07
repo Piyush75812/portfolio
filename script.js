@@ -301,10 +301,9 @@ filterBtns.forEach(btn => {
 =================================================== */
 
 const API_URL =
-  (window.location.hostname === "localhost" ||
-    window.location.hostname === "127.0.0.1")
+  window.location.hostname === "localhost"
     ? "http://localhost:5000/api/contact"
-    : "https://YOUR-BACKEND.onrender.com/api/contact";
+    : "https://portfolio-backend-lggo.onrender.com/api/contact";
 /* ===================================================
    11. CONTACT FORM
 =================================================== */
