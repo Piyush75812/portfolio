@@ -28,6 +28,10 @@ app.get("/health", (req, res) => {
 
 // Routes
 app.use("/api/contact", contactRoutes);
+// Test Route
+app.get("/test", (req, res) => {
+    res.send("TEST ROUTE WORKING");
+});
 
 // 404 Handler
 app.use((req, res) => {
