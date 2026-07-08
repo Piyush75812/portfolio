@@ -303,7 +303,7 @@ filterBtns.forEach(btn => {
 const API_URL =
   window.location.hostname === "localhost"
     ? "http://localhost:5000/api/contact"
-    : "https://portfolio-backend-lggo.onrender.com/api/contact";
+    : "https://portfolio-backend-v2-xqp3.onrender.com/api/contact";
 /* ===================================================
    11. CONTACT FORM
 =================================================== */

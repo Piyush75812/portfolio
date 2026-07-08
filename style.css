@@ -897,7 +897,6 @@ code, .mono-text, .mono-tag, .typed-text {
 @media (max-width: 991.98px) {
   .hero-img, .hero-img-wrapper { width: 240px; height: 240px; }
   .hero-ring { inset: -10px; }
-  .about-img { height: 450px; }
   .about-exp-badge { bottom: -12px; right: 0; }
 }
 
