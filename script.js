@@ -359,7 +359,7 @@ if (contactForm) {
 
         controller.abort();
 
-      }, 10000);
+      }, 60000);
 
       const response = await fetch(API_URL, {
 
